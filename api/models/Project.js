@@ -8,6 +8,18 @@
 module.exports = {
 
   attributes: {
+    name: {
+      type: 'string',
+      required: true
+    },
+    municipality: {
+      type: 'string',
+      required: true
+    },
+    district: {
+      type: 'string',
+      required: true
+    },
     owner: {
       model: 'publicadmin',
       required: true
