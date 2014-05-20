@@ -30,7 +30,7 @@ module.exports = function forbidden(message) {
 
   // If the user-agent wants a JSON response, send json
   if (req.wantsJSON) {
-    return res.json(result, result.status);
+    return res.json(result.status);
   }
 
   // Set status code and view locals

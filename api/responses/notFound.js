@@ -24,7 +24,7 @@ module.exports = function notFound() {
 
   // If the user-agent wants a JSON response, send json
   if (req.wantsJSON) {
-    return res.json(result, result.status);
+    return res.json(result.status);
   }
 
   res.status(result.status);

@@ -57,7 +57,7 @@ module.exports = function serverError (errors) {
 
   // If the user-agent wants JSON, respond with JSON
   if (req.wantsJSON) {
-    return res.json(result);
+    return res.json(result.errors);
   }
 
 
