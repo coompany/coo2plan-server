@@ -20,7 +20,7 @@ module.exports = _.merge(_.cloneDeep(baseUser), {
       type: 'string',
       required: true
     },
-    officeAddress: {
+    address: {
       type: 'string',
       required: true
     },

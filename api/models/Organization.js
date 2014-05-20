@@ -12,6 +12,10 @@ module.exports = {
       type: 'string',
       required: true
     },
+    address: {
+      type: 'string',
+      required: true
+    },
     municipality: {
       type: 'string',
       required: true
